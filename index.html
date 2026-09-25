@@ -40,6 +40,24 @@
         .nav-links a:hover {
             color: #93c5fd;
         }
+
+        .second-page-link {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            background-color: #2563eb;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .second-page-link:hover,
+        .second-page-link:focus-visible {
+            background-color: #1d4ed8;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
@@ -52,6 +70,7 @@
         </ul>
     </nav>
     <h1>This is a html project</h1>
+    <a class="second-page-link" href="second.html">Explore the second page &rarr;</a>
     
 </body>
 </html>
